@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release version="1.2" versioncode="13">
+        <change>Added apk compression, the app is now smaller and faster!</change>
+    </release>
+    <release version="1.1" versioncode="12">
+        <change>Added this neat changelog tracker.</change>
+        <change>Added the option to have notifications spoken aloud. Disabled by default so check it
+            out in the settings!
+        </change>
+    </release>
+    <release version="1.0" versioncode="9">
+        <change>Release!</change>
+        <change>Setting to disable notifications.</change>
+        <change>Detail graphs can now be swiped through.</change>
+    </release>
+    <release version="0.5.0" versioncode="8">
+        <change>Added geofenced notifications.</change>
+    </release>
+</changelog>

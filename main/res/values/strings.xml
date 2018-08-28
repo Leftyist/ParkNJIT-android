@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">ParkNJIT</string>
+    <string name="version">1.1</string>
+
+    <string name="tab_text_one_deck">Decks</string>
+    <string name="tab_text_two_street">Street</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_about">About</string>
+
+    <string name="deck_button_details">Details</string>
+    <string name="deck_button_navigate">Navigate</string>
+    <string name="deck_label_spots_available">Parking Spots \n Available</string>
+    <string name="deck_lot12_warning">Looks like it\'s filling up, you might want to check out Lot #12. Tap for directions! </string>
+
+    <string name="text_version">Version</string>
+    <string name="text_close">Close</string>
+
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="detail_activity_live_text">%x parking spots available</string>
+
+    <string-array name="spinner_days_of_week">
+        <item>Mondays</item>
+        <item>Tuesdays</item>
+        <item>Wednesdays</item>
+        <item>Thursdays</item>
+        <item>Fridays</item>
+        <item>Saturdays</item>
+        <item>Sundays</item>
+    </string-array>
+
+    <string name="list_filter_title">Filter by semester</string>
+    <string-array name="list_filter_options">
+        <item>Fall</item>
+        <item>Winter</item>
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Custom</item>
+    </string-array>
+
+    <string name="changelog_full_title">Changelog</string>
+    <string name="changelog_title">What\'s New</string>
+    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_show_full">Older…</string>
+
+
+    <!-- ====================================================== -->
+    <!-- ===================== GEOFENCING ===================== -->
+    <!-- ====================================================== -->
+
+    <string name="firebase_geofencing_property">Uses_Geofencing</string>
+    <string name="firebase_geofencing_tts_property">Uses_Notification_TTS</string>
+    <!-- Error strings -->
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents"> You have provided too many PendingIntents to the addGeofences() call </string>
+    <string name="unknown_geofence_error"> Unknown error: the Geofence service is not available now </string>
+    <string name="geofence_transition_invalid_type">Geofence transition error: invalid transition type %1$d</string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="geofence_transition_dwelled">Dwelled</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+
+    <string name="geofence_transition_notification_text"> Click notification to return to app </string>
+
+    <string name="geofences_added">Geofences added</string>
+    <string name="geofences_removed">Geofences removed</string>
+
+    <string name="insufficient_permissions">Insufficient permissions.</string>
+    <string name="permission_rationale">Location permission is needed to show notifications.</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for notifications.</string>
+
+
+    <!-- ====================================================== -->
+    <!-- ==================== INTENT KEYS ===================== -->
+    <!-- ====================================================== -->
+
+    <string name="intent_key_bar_data">intent-bar-data</string>
+    <string name="intent_key_lot_data">intent-lot-data</string>
+    <string name="intent_key_live_data">intent-live-data</string>
+    <string name="intent_key_toolbar_title">intent-toolbar-title</string>
+    <string name="intent_key_lot_total">intent-lot-total</string>
+    <string name="intent_key_lot_sitename">intent-lot-sitename</string>
+
+    <!-- ====================================================== -->
+    <!-- ===================== Preferences ==================== -->
+    <!-- ====================================================== -->
+
+    <string name="pref_geofencing_label">Geofenced Notifications</string>
+    <string name="pref_geofencing_key" translatable="false">enable_geofencing</string>
+    <string name="pref_geofencing_default" translatable="false">true</string>
+    <string name="pref_geofencing_description">Notifications will be sent as you get close to campus.</string>
+
+    <string name="pref_geofencing_tts_label">Notification Speech</string>
+    <string name="pref_geofencing_tts_key" translatable="false">geofencing_tts</string>
+    <string name="pref_geofencing_tts_default" translatable="false">false</string>
+    <string name="pref_geofencing_tts_description">Notifications will be read aloud using text-to-speech.</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:title="@string/pref_geofencing_label"
+        android:key="@string/pref_geofencing_key"
+        android:summary="@string/pref_geofencing_description"
+        android:defaultValue="@string/pref_geofencing_default" />
+
+    <SwitchPreference
+        android:title="@string/pref_geofencing_tts_label"
+        android:key="@string/pref_geofencing_tts_key"
+        android:summary="@string/pref_geofencing_tts_description"
+        android:defaultValue="@string/pref_geofencing_tts_default" />
+
+</PreferenceScreen>
