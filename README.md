@@ -1,1 +1,1 @@
-pnjit-android
+The Android component of Park NJIT.
